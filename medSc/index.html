@@ -1,0 +1,51 @@
+<html>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <title>HealthXr Bot</title>
+    <link rel="icon" type="image/jpg" href="C:\Users\p45hu\Desktop\medSc\icon.jpg">
+    <style>
+     body {
+      background-color:#fbfbfe;
+      }
+    </style>
+
+  </head>
+  <body>
+    <h1 style="text-align:center;  color:#0033CC">HealthXr Bot</h1>
+    <br>
+    <h2 style="text-align:center; color:#0033CC">Πιέστε το εικονίδιο κάτω δεξιά και πληκτρολογίστε "start" για να αρχίσει η συνομιλία.</h2>
+    <picture>
+      <img src="image2.jpg" style=" width: 100%; height:auto; ">
+    </picture>
+    <script>!(function () {
+      let e = document.createElement("script"),
+        t = document.head || document.getElementsByTagName("head")[0];
+      (e.src =
+        "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
+        // Replace 1.x.x with the version that you want
+        (e.async = !0),
+        (e.onload = () => {
+          window.WebChat.default(
+            {
+              initPayload: '/greet',
+              customData: { language: "gr" },
+              socketUrl: "http://localhost:5005",
+              socketPath: "/socket.io/",
+              title: "ΚΛΙΝΙΚΕΣ ΔΕΞΙΟΤΗΤΕΣ",
+              params: {"Storage": "session"}
+              
+              // add other props here
+            },
+            null
+          );
+        }),
+        t.insertBefore(e, t.firstChild);
+    })();
+    localStorage.clear();
+    </script>
+  </body>
+  <footer>
+    <p style=" text-align:center; color:#0033CC">© 2022</p>
+  </footer>  
+  </html>
