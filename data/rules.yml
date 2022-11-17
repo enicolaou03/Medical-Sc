@@ -1,195 +1,146 @@
 version: "2.0"
-
 rules:
-  
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye
   - action: utter_goodbye
-
 - rule: other
   steps:
   - intent: other
   - action: utter_other
-  
 - rule: respond to name
   steps:
   - intent: name
   - action: utter_name
-  
 - rule: respond to age
   steps:
   - intent: age
   - action: utter_age
-  
 - rule: respond to info
   steps:
   - intent: info
   - action: utter_info
-  
-- rule: respond to problem anytime
-  steps:
-  - intent: problem
-  - action: utter_problem
-
-- rule: respond to problem anytime
-  steps:
-  - intent: problem1
-  - action: utter_problem1
-  
 - rule: respond to describe the pain anytime
   steps:
-  - intent: describe 
+  - intent: describe
   - action: utter_describe
-  
 - rule: respond to painkiller
   steps:
-  - intent: painkiller 
+  - intent: painkiller
   - action: utter_painkiller
-
 - rule: respond to relief
   steps:
-  - intent: relief 
+  - intent: relief
   - action: utter_relief
-
 - rule: respond to painStart
   steps:
   - intent: painStart
   - action: utter_painStart
-  
-- rule: respond to where is the pain now   
+- rule: respond to where is the pain now
   steps:
   - intent: painFeel
   - action: utter_painFeel
-
-- rule: respond to other_medicine  
+- rule: respond to other_medicine
   steps:
   - intent: other_medicine
   - action: utter_other_medicine
-
-- rule: respond to most_pain2 
+- rule: respond to most_pain2
   steps:
   - intent: most_pain2
   - action: utter_most_pain2
-
-- rule: respond to most_pain 
+- rule: respond to most_pain
   steps:
   - intent: most_pain
   - action: utter_most_pain
-
 - rule: respond to focus pain
   steps:
   - intent: focus_pain
   - action: utter_focus_pain
-
 - rule: respond to pain related
   steps:
   - intent: painRelated
   - action: utter_painRelated
-  
 - rule: respond if the patient take other medicine
   steps:
   - intent: other_medicine
   - action: utter_other_medicine
-  
 - rule: respond if the patient have other symptoms
   steps:
   - intent: other_pain
   - action: utter_other_pain
-
 - rule: respond if he had another health problem
   steps:
   - intent: health_problems
   - action: utter_health_problems
-  
-- rule: respond never before 
+- rule: respond never before
   steps:
   - intent: never_before
   - action: utter_never_before
-  
-- rule: respond to toilet 
+- rule: respond to toilet
   steps:
   - intent: toilet
   - action: utter_toilet
-  
-- rule: respond to thermometer 
+- rule: respond to thermometer
   steps:
   - intent: thermometer
   - action: utter_thermometer
-  
 - rule: respond to hungry
   steps:
   - intent: hungry
   - action: utter_hungry
-  
 - rule: respond to other_symptoms
   steps:
   - intent: other_symptoms
   - action: utter_other_symptoms
-  
 - rule: respond to when_painStart
   steps:
   - intent: when_painStart
   - action: utter_when_painStart
-  
 - rule: respond to change_nutrition
   steps:
   - intent: change_nutrition
   - action: utter_change_nutrition
-  
 - rule: respond to focus_pain
   steps:
   - intent: focus_pain
   - action: utter_focus_pain
-  
 - rule: respond to starting_point
   steps:
   - intent: starting_point
   - action: utter_starting_point
-  
 - rule: respond to family_health_problems
   steps:
   - intent: family_health_problems
   - action: utter_family_health_problems
-  
 - rule: respond to onlyyou
   steps:
   - intent: onlyyou
   - action: utter_affirm
-  
 - rule: respond to eat_others
   steps:
   - intent: eat_others
   - action: utter_eat_others
-  
 - rule: respond to same_symptoms
   steps:
   - intent: same_symptoms
   - action: utter_same_symptoms
-  
 - rule: respond to last_meal
   steps:
   - intent: last_meal
   - action: utter_last_meal
-  
 - rule: respond to what_food
   steps:
   - intent: what_food
   - action: utter_what_food
-  
 - rule: respond to something_to_say
   steps:
   - intent: something_to_say
   - action: utter_something_to_say
-  
 - rule: respond to help
   steps:
   - intent: help
   - action: utter_help
-
 - rule: respond to problem_cough
   steps:
   - intent: problem_cough
   - action: utter_problem_cough
-
-
