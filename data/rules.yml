@@ -27,15 +27,15 @@ rules:
   - intent: info
   - action: utter_info
   
-#- rule: respond to problem anytime
-  #steps:
-  #- intent: problem
-  #- action: utter_problem
+- rule: respond to problem anytime
+  steps:
+  - intent: problem
+  - action: utter_problem
 
-#- rule: respond to problem anytime
-#  steps:
- # - intent: problem1
- # - action: utter_problem1
+- rule: respond to problem anytime
+  steps:
+  - intent: problem1
+  - action: utter_problem1
   
 - rule: respond to describe the pain anytime
   steps:

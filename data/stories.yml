@@ -16,19 +16,6 @@ stories:
   - action: utter_conclusion
   - intent: conclusion_second
   - action: utter_conclusion_second
-  
-- story: diagnosis path 1 
-  steps:
-  - intent: select
-  - action: utter_select
-  - intent: greet
-  - action: utter_greet
-  - intent: accept
-  - action: utter_accept
-  - intent: problem
-  - action: utter_problem
-  - intent: conclusion_second
-  - action: utter_conclusion_second
 
 - story: diagnosis path cough
   steps:
