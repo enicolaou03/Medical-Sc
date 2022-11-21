@@ -23,8 +23,8 @@ stories:
   - action: utter_select
   - intent: other
   - action: utter_other
-  - intent: accept
-  - action: utter_accept
+  - intent: accept1
+  - action: utter_accept1
   - intent: problem1
   - action: utter_problem1
   - intent: conclusion_second

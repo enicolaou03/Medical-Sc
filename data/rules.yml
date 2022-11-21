@@ -37,7 +37,6 @@ rules:
   - intent: problem1
   - action: utter_problem1
   
-  
 - rule: respond to describe the pain anytime
   steps:
   - intent: describe 
