@@ -25,7 +25,7 @@ stories:
   - action: utter_other
   - intent: accept1
   - action: utter_accept1
-  - intent: problem1
+  - intent: problem
   - action: utter_problem1
   - intent: conclusion_second
   - action: utter_conclusion_second

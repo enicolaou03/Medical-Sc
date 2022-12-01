@@ -13,7 +13,7 @@ intents:
   - affirm
   - deny
   - problem
-  - problem1
+  #- problem1
   - relief
   - painkiller
   - painStart
