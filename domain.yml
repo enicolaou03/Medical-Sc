@@ -7,13 +7,13 @@ intents:
   - accept
   - accept1
   - name
-  - age 
+  - age
   - info
   - goodbye
   - affirm
   - deny
   - problem
-  #- problem1
+  - problem1
   - relief
   - painkiller
   - painStart
@@ -67,11 +67,20 @@ responses:
   utter_name:
   - text: "Ονομάζομαι Αντρέας Κυριάκου"
   
+  utter_name1:
+  - text: "Ονομάζομαι Μαρία Ιωάννου"
+  
   utter_age:
   - text: "Είμαι 48 χρονών γιατρέ μου."
   
+  utter_age1:
+  - text: "έχω γεννηθεί στις 5 Οκτωμβρίου του 1975, είμαι 45 ετών."
+  
   utter_info:
   - text: "Ονομάζομαι Αντρέας Κυριάκου και είμαι 48 χρονών γιατρέ μου"
+  
+  utter_info1:
+  - text: "Ονομάζομαι Μαρία Ιωάννου και είμαι 45 χρονών γιατρέ μου"
   
   utter_problem1:
   - text: "Γιατρέ μου εδώ και 3 μέρες έχω βήχα"

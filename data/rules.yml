@@ -12,20 +12,20 @@ rules:
   - intent: other
   - action: utter_other
   
-- rule: respond to name
-  steps:
-  - intent: name
-  - action: utter_name
+#- rule: respond to name
+#  steps:
+ # - intent: name
+ # - action: utter_name
   
-- rule: respond to age
-  steps:
-  - intent: age
-  - action: utter_age
+#- rule: respond to age
+ # steps:
+ # - intent: age
+ # - action: utter_age
   
-- rule: respond to info
-  steps:
-  - intent: info
-  - action: utter_info
+#- rule: respond to info
+ # steps:
+ # - intent: info
+ #- action: utter_info
   
 #- rule: respond to problem anytime
  # steps:
