@@ -187,8 +187,8 @@ rules:
   - intent: help
   - action: utter_help
 
-- rule: respond to problem_cough
-  steps:
-  - intent: problem_cough
-  - action: utter_problem_cough
+#- rule: respond to problem_cough
+ # steps:
+ # - intent: problem_cough
+ # - action: utter_problem_cough
 

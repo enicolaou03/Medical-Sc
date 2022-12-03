@@ -8,6 +8,7 @@ stories:
   - action: utter_select
   - intent: greet
   - action: utter_greet
+  - action: utter_nameex
   - intent: accept
   - action: utter_accept
   - intent: problem
@@ -23,10 +24,9 @@ stories:
   - action: utter_select
   - intent: greet
   - action: utter_greet
+  - action: utter_nameex
   - intent: accept
   - action: utter_accept
-  - intent: name
-  - action: utter_name
   - intent: age
   - action: utter_age
   - intent: problem
@@ -36,22 +36,23 @@ stories:
   - intent: conclusion_second
   - action: utter_conclusion_second
   
-- story: diagnosis path2 - stomach ache
-  steps:
-  - intent: select
-  - action: utter_select
-  - intent: greet
-  - action: utter_greet
-  - intent: accept
-  - action: utter_accept
-  - intent: info
-  - action: utter_info
-  - intent: problem
-  - action: utter_problem
-  - intent: conclusion
-  - action: utter_conclusion
-  - intent: conclusion_second
-  - action: utter_conclusion_second
+#- story: diagnosis path2 - stomach ache
+ # steps:
+ # - intent: select
+ # - action: utter_select
+ # - intent: greet
+ # - action: utter_greet
+ # - action: utter_nameex
+ # - intent: accept
+ # - action: utter_accept
+ # - intent: info
+ # - action: utter_info
+ # - intent: problem
+ # - action: utter_problem
+ # - intent: conclusion
+ # - action: utter_conclusion
+ # - intent: conclusion_second
+ # - action: utter_conclusion_second
 
 - story: diagnosis path cough
   steps:
@@ -63,6 +64,8 @@ stories:
   - action: utter_accept1
   - intent: problem
   - action: utter_problem1
+  - intent: problem_cough
+  - action: utter_problem_cough
   - intent: conclusion_second
   - action: utter_conclusion_second
   
@@ -72,30 +75,34 @@ stories:
   - action: utter_select
   - intent: other
   - action: utter_other
+  - action: utter_nameex1
   - intent: accept1
   - action: utter_accept1
-  - intent: name
-  - action: utter_name1
   - intent: age
   - action: utter_age1
   - intent: problem
   - action: utter_problem1
+  - intent: problem_cough
+  - action: utter_problem_cough
   - intent: conclusion_second
   - action: utter_conclusion_second
   
-- story: diagnosis path2 cough
-  steps:
-  - intent: select
-  - action: utter_select
-  - intent: other
-  - action: utter_other
-  - intent: accept1
-  - action: utter_accept1
-  - intent: info
-  - action: utter_info1
-  - intent: problem
-  - action: utter_problem1
-  - intent: conclusion_second
-  - action: utter_conclusion_second
+#- story: diagnosis path2 cough
+ # steps:
+ # - intent: select
+ # - action: utter_select
+ # - intent: other
+ # - action: utter_other
+ # - action: utter_nameex1
+ # - intent: accept1
+ # - action: utter_accept1
+ # - intent: info
+ # - action: utter_info1
+ # - intent: problem
+ # - action: utter_problem1
+ # - intent: problem_cough
+ # - action: utter_problem_cough
+ # - intent: conclusion_second
+ # - action: utter_conclusion_second
 
 
