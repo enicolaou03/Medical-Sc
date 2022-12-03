@@ -74,9 +74,9 @@ stories:
   - action: utter_other
   - intent: accept1
   - action: utter_accept1
-  - intent: name1
+  - intent: name
   - action: utter_name1
-  - intent: age1
+  - intent: age
   - action: utter_age1
   - intent: problem
   - action: utter_problem1
@@ -91,7 +91,7 @@ stories:
   - action: utter_other
   - intent: accept1
   - action: utter_accept1
-  - intent: info1
+  - intent: info
   - action: utter_info1
   - intent: problem
   - action: utter_problem1
