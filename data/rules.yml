@@ -7,10 +7,10 @@ rules:
   - intent: goodbye
   - action: utter_goodbye
 
-- rule: other
-  steps:
-  - intent: other
-  - action: utter_other
+#- rule: other
+ # steps:
+ # - intent: other
+ # - action: utter_other
   
 #- rule: respond to name
 #  steps:
