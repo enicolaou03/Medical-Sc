@@ -53,6 +53,8 @@ stories:
   - action: utter_conclusion_second
   - intent: time_of_the_day
   - action: utter_time_of_the_day
+  - intent: cough_medicine
+  - action: utter_cough_medicine
   
 - story: diagnosis path1 cough
   steps:
@@ -73,4 +75,6 @@ stories:
   - action: utter_conclusion_second
   - intent: time_of_the_day
   - action: utter_time_of_the_day
+  - intent: cough_medicine
+  - action: utter_cough_medicine
 
