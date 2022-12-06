@@ -24,7 +24,7 @@ stories:
   - action: utter_select
   - intent: greet
   - action: utter_greet
-  - action: utter_info1
+  - action: utter_nameex
   - intent: accept
   - action: utter_accept
   - intent: age
@@ -62,7 +62,7 @@ stories:
   - action: utter_select
   - intent: other
   - action: utter_other
-  - action: utter_nameex1
+  - action: utter_info1
   - intent: accept1
   - action: utter_accept1
   - intent: age
