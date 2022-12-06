@@ -55,6 +55,8 @@ stories:
   - action: utter_time_of_the_day
   - intent: cough_medicine
   - action: utter_cough_medicine
+  - intent: what_medicine
+  - action: utter_what_medicine
   
 - story: diagnosis path1 cough
   steps:
@@ -77,4 +79,6 @@ stories:
   - action: utter_time_of_the_day
   - intent: cough_medicine
   - action: utter_cough_medicine
+  - intent: what_medicine
+  - action: utter_what_medicine
 

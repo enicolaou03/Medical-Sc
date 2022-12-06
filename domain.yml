@@ -51,6 +51,7 @@ intents:
   - problem_cough
   - time_of_the_day
   - cough_medicine
+  - what_medicine
   
 responses:
   
@@ -204,6 +205,9 @@ responses:
   utter_cough_medicine:
   - text: "εντάξει λοιπόν, κοιτάξτε ήπια κάτι ροφήματα, πήρα κάτι καραμέλες για το λαιμό, μου έδωσαν και ένα σιρόπι αλλά δεν είδα αποτέλεσμα"
   
+  utter_what_medicine:
+  - text: "μπα δεν θυμάμαι το όνομά του αλλά μου το έδωσε η φαρμακοποιός της γειτονιάς μας που είναι και φίλη μου."
+  
   utter_select:
   - text: "Επιλέξτε το σύμπτωμα στο οποίο θέλετε να εξασκηθείτε:"
     buttons: 
@@ -211,4 +215,8 @@ responses:
       payload: "/greet"
     - title: "Βήχα"
       payload: "/other"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
 
