@@ -1,7 +1,5 @@
 version: "2.0"
-
 stories:
-
 - story: diagnosis path - stomach ache
   steps:
   - intent: select
@@ -17,7 +15,6 @@ stories:
   - action: utter_conclusion
   - intent: conclusion_second
   - action: utter_conclusion_second
-  
 - story: diagnosis path1 - stomach ache
   steps:
   - intent: select
@@ -35,14 +32,13 @@ stories:
   - action: utter_conclusion
   - intent: conclusion_second
   - action: utter_conclusion_second
-
 - story: diagnosis path cough
   steps:
   - intent: select
   - action: utter_select
   - intent: other
   - action: utter_other
-  - action: utter_info1
+  - action: utter_nameex1
   - intent: accept1
   - action: utter_accept1
   - intent: problem
@@ -57,14 +53,13 @@ stories:
   - action: utter_cough_medicine
   - intent: what_medicine
   - action: utter_what_medicine
-  
 - story: diagnosis path1 cough
   steps:
   - intent: select
   - action: utter_select
   - intent: other
   - action: utter_other
-  - action: utter_info1
+  - action: utter_nameex1
   - intent: accept1
   - action: utter_accept1
   - intent: age
@@ -81,4 +76,3 @@ stories:
   - action: utter_cough_medicine
   - intent: what_medicine
   - action: utter_what_medicine
-
