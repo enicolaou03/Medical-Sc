@@ -13,7 +13,6 @@ intents:
   - affirm
   - deny
   - problem
-  - problem1
   - relief
   - painkiller
   - painStart
@@ -24,7 +23,6 @@ intents:
   - describe 
   - starting_point
   - most_pain
-  - chitchat
   - never_before
   - other_pain
   - other_symptoms
@@ -47,7 +45,6 @@ intents:
   - help
   - same_pain
   - better_pain
-  - xronia_pathisi
   - problem_cough
   - time_of_the_day
   - cough_medicine
