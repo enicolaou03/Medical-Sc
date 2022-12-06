@@ -186,6 +186,12 @@ rules:
   steps:
   - intent: help
   - action: utter_help
+  
+- rute: who give you the medicine
+  steps:
+  - intent: who_medicine
+  - action: utter_who_medicine
+  
 
 #- rule: respond to problem_cough
  # steps:

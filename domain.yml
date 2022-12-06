@@ -49,6 +49,7 @@ intents:
   - time_of_the_day
   - cough_medicine
   - what_medicine
+  - who_medicine
   
 responses:
   
@@ -205,6 +206,9 @@ responses:
   utter_what_medicine:
   - text: "μπα δεν θυμάμαι το όνομά του αλλά μου το έδωσε η φαρμακοποιός της γειτονιάς μας που είναι και φίλη μου."
   
+  utter_who_medicine:
+  - text: "δεν το θεώρησα τόσο σημαντικό για να πάω στο γιατρό"
+  
   utter_select:
   - text: "Επιλέξτε το σύμπτωμα στο οποίο θέλετε να εξασκηθείτε:"
     buttons: 
@@ -213,7 +217,7 @@ responses:
     - title: "Βήχα"
       payload: "/other"
 
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+  session_config:
+    session_expiration_time: 60
+    carry_over_slots_to_new_session: true
 
