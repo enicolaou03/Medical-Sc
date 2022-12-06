@@ -69,8 +69,8 @@ responses:
   utter_name:
   - text: "Ονομάζομαι Αντρέας Κυριάκου"
   
-  utter_name1:
-  - text: "Ονομάζομαι Μαρία Ιωάννου"
+ # utter_name1:
+  #- text: "Ονομάζομαι Μαρία Ιωάννου"
   
   utter_nameex:
   - text: "Όνομα Ασθενή: Αντρέας Κυριάκου"
