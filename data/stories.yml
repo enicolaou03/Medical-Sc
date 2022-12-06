@@ -42,21 +42,21 @@ stories:
   - action: utter_select
   - intent: other
   - action: utter_other
-  - action: utter_info1
+  - action: utter_nameex1
   - intent: accept1
   - action: utter_accept1
   - intent: problem
   - action: utter_problem1
   - intent: problem_cough
   - action: utter_problem_cough
-  - intent: conclusion_second
-  - action: utter_conclusion_second
   - intent: time_of_the_day
   - action: utter_time_of_the_day
   - intent: cough_medicine
   - action: utter_cough_medicine
   - intent: what_medicine
   - action: utter_what_medicine
+  - intent: conclusion_second
+  - action: utter_conclusion_second
   
 - story: diagnosis path1 cough
   steps:
@@ -64,7 +64,7 @@ stories:
   - action: utter_select
   - intent: other
   - action: utter_other
-  - action: utter_info1
+  - action: utter_nameex1
   - intent: accept1
   - action: utter_accept1
   - intent: age
@@ -73,12 +73,12 @@ stories:
   - action: utter_problem1
   - intent: problem_cough
   - action: utter_problem_cough
-  - intent: conclusion_second
-  - action: utter_conclusion_second
   - intent: time_of_the_day
   - action: utter_time_of_the_day
   - intent: cough_medicine
   - action: utter_cough_medicine
   - intent: what_medicine
   - action: utter_what_medicine
+  - intent: conclusion_second
+  - action: utter_conclusion_second
 
