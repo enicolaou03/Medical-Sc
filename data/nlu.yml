@@ -342,6 +342,7 @@ nlu:
   examples: |
     - help
     - βοήθεια
+    - help me 
 - intent: better_pain
   examples: |
     - Νιώθετε καλυτερα ?
